@@ -104,3 +104,13 @@
   ::-webkit-scrollbar-thumb:hover {
     background: blue;
   }
+
+  /*Temporary StyleSheets*/
+
+  .count1 {
+      font-size: 72px;
+      font-weight: 900;
+      background: -webkit-linear-gradient(green, lightblue);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+  }

@@ -6,6 +6,9 @@
 <body>
   <article>
     <img src="https://i.imgur.com/orNGzeD.png" width="200" height="200">
+    <div class="count1">
+      <p id="count1"></p>
+    </div>
     <h1>We&rsquo;ll be back</h1>
     <div class="content">
       <div>
@@ -25,10 +28,6 @@
     <div class="countdown">
       <div id="clockdiv">
         <div>
-          <span class="weeks" id="week"></span>
-          <div class="smalltext">Weeks</div>
-        </div>
-        <div>
           <span class="days" id="day"></span>
           <div class="smalltext">Days</div>
         </div>
@@ -45,36 +44,31 @@
           <div class="smalltext">Seconds</div>
         </div>
       </div>
-      <p id="count1"></p>
 
       <script>
         // Set the date we're counting down to
-        var deadline = new Date("Dec 25, 2019 00:00:00").getTime();
-
+        var deadline = new Date("dec 25, 2019 00:00:00").getTime(); 
         var x = setInterval(function () {
 
           var now = new Date().getTime();
           var t = deadline - now;
-          var weeks = Math.floor(t / (1000 * 60 * 60 * 24 * 7));
           var days = Math.floor(t / (1000 * 60 * 60 * 24));
           var hours = Math.floor((t % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
           var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60));
           var seconds = Math.floor((t % (1000 * 60)) / 1000);
-          document.getElementById("week").innerHTML = weeks;
           document.getElementById("day").innerHTML = days;
           document.getElementById("hour").innerHTML = hours;
           document.getElementById("minute").innerHTML = minutes;
           document.getElementById("second").innerHTML = seconds;
           if (t < 0) {
             clearInterval(x);
-            document.getElementById("demo").innerHTML = "Merry Christmas";
-            document.getElementByID("week").innerHTML = '0';
+            document.getElementById("count1").innerHTML = "Merry Christmas!";
             document.getElementById("day").innerHTML = '0';
             document.getElementById("hour").innerHTML = '0';
             document.getElementById("minute").innerHTML = '0';
             document.getElementById("second").innerHTML = '0';
           }
-        }, 1000);
+        }, 1000); 
       </script>
     </div>
   </article>
