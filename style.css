@@ -1,8 +1,9 @@
   @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
   body {
     text-align: center;
+    font: 20px Helvetica, sans-serif;
     padding: 70px;
-    background-image: url("backing.jpg");
+    /*background-image: url("backing.jpg");*/
     margin: auto;
   }
 
@@ -23,11 +24,6 @@
 
   h2 {
     font-size: 35px;
-  }
-
-  body {
-    font: 20px Helvetica, sans-serif;
-    color: #ffffff;
   }
 
   article {
