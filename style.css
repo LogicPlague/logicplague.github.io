@@ -2,7 +2,8 @@
   body {
     text-align: center;
     font: 20px Helvetica, sans-serif;
-    padding: 70px;
+    color: #333;
+    padding: 150px;
     /*background-image: url("backing.jpg");*/
     margin: auto;
   }
@@ -19,7 +20,8 @@
   }
 
   h1 {
-    font-size: 50px;
+    font-size: 40px;
+    text-align: center;
   }
 
   h2 {
@@ -28,18 +30,19 @@
 
   article {
     display: block;
-    text-align: center;
-    width: 700px;
+    text-align: left;
+    width: 650px;
     margin: 0 auto;
   }
 
   a {
-    color: #dc8100;
+    color: maroon;
     text-decoration: none;
+    font-weight: bolder;
   }
 
   a:hover {
-    color: #333;
+    color: #0080e2;
     text-decoration: none;
   }
 
@@ -102,11 +105,3 @@
   }
 
   /*Temporary StyleSheets*/
-
-  .count1 {
-      font-size: 72px;
-      font-weight: 900;
-      background: -webkit-linear-gradient(green, lightblue);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-  }
