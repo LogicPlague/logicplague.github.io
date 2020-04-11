@@ -1,0 +1,31 @@
+    html {
+        background-color: #585858;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+        text-align: center;
+        font: 20px Helvetica, sans-serif;
+        padding: 15px;
+        margin: auto;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    article {
+        display: block;
+        text-align: left;
+        width: 650px;
+        margin: 0 auto;
+    }
+
+    ol {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 15px;
+    }
