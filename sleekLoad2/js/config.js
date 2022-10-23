@@ -119,6 +119,7 @@ var l_musicPlaylist = [
 	{youtube: "https://www.youtube.com/watch?v=tkY1vTeVBUA", name: "F-777 - Airborne Robots"},
 	{youtube: "https://www.youtube.com/watch?v=FAvmiWUa_dk", name: "KDrew - Bullseye"},
 	{youtube: "https://www.youtube.com/watch?v=UFNickmraXQ", name: "Virtual Riot - Endergy Drink"},
+	{youtube: "https://www.youtube.com/watch?v=Zv6o6ZsUmI0", name: "Robert Miles - Children"},
 ];
 
 // Random music order?
