@@ -76,6 +76,7 @@ var l_bgImages = [
 	"dgn/dgn_pic_02.jpg",
 	"dgn/dgn_pic_03.jpg",
 	"dgn/dgn_pic_01.jpg",
+	"dgn/foundation.jpg",
 ];
 
 // (Image-background only)
@@ -115,11 +116,12 @@ var l_musicDisplay = true;
 // (You can also use external URL for the ogg files)
 var l_musicPlaylist = [
 	{ogg: "lullaby.ogg", name: "Lullaby of Deserted Hell"},
-	{youtube: "https://www.youtube.com/watch?v=DsemU6yb7hA", name: "F-777 - The Seven Seas"},
-	{youtube: "https://www.youtube.com/watch?v=tkY1vTeVBUA", name: "F-777 - Airborne Robots"},
-	{youtube: "https://www.youtube.com/watch?v=FAvmiWUa_dk", name: "KDrew - Bullseye"},
-	{youtube: "https://www.youtube.com/watch?v=UFNickmraXQ", name: "Virtual Riot - Endergy Drink"},
-	{youtube: "https://www.youtube.com/watch?v=Zv6o6ZsUmI0", name: "Robert Miles - Children"},
+	//{youtube: "https://www.youtube.com/watch?v=DsemU6yb7hA", name: "F-777 - The Seven Seas"},
+	//{youtube: "https://www.youtube.com/watch?v=tkY1vTeVBUA", name: "F-777 - Airborne Robots"},
+	//{youtube: "https://www.youtube.com/watch?v=FAvmiWUa_dk", name: "KDrew - Bullseye"},
+	//{youtube: "https://www.youtube.com/watch?v=UFNickmraXQ", name: "Virtual Riot - Endergy Drink"},
+	//{youtube: "https://www.youtube.com/watch?v=Zv6o6ZsUmI0", name: "Robert Miles - Children"},
+	{youtube: "https://www.youtube.com/watch?v=YJaeH8ffl_M", name: "The SCP Foundation Main Theme"},
 ];
 
 // Random music order?
