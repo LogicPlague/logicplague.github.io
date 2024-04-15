@@ -72,11 +72,11 @@ var l_bgImageMapBased = false;
 // (Place the files in the backgrounds/images folder)
 // (You can also use external URL)
 var l_bgImages = [
-	"dgn/dgn_pic_01.jpg",
-	"dgn/dgn_pic_02.jpg",
-	"dgn/dgn_pic_03.jpg",
-	"dgn/dgn_pic_01.jpg",
-	"dgn/foundation.jpg",
+	//"dgn/dgn_pic_01.jpg",
+	//"dgn/dgn_pic_02.jpg",
+	//"dgn/dgn_pic_03.jpg",
+	//"dgn/dgn_pic_01.jpg",
+	"dgn/scpfoundation.jpg",
 ];
 
 // (Image-background only)
