@@ -122,6 +122,7 @@ var l_musicPlaylist = [
 	//{youtube: "https://www.youtube.com/watch?v=UFNickmraXQ", name: "Virtual Riot - Endergy Drink"},
 	//{youtube: "https://www.youtube.com/watch?v=Zv6o6ZsUmI0", name: "Robert Miles - Children"},
 	{youtube: "https://www.youtube.com/watch?v=YJaeH8ffl_M", name: "The SCP Foundation Main Theme"},
+	{youtube: "https://www.youtube.com/watch?v=4UCY44YazbQ", name: "MOBILE TASK FORCE - RED RIGHT HAND"},
 ];
 
 // Random music order?
@@ -141,7 +142,7 @@ var l_messages = [
 	"Enjoy the server",
 	"Thanks for joining us!",
 	"Welcome to Delta Gaming Network",
-	"We also have a discord. Here's the invite code. J7EhZyg"
+	"We also have a discord. Here's the invite code. ********"
 ];
 
 // Random message order?
